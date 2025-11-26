@@ -1,9 +1,12 @@
 ALMRun
 =======
 *******
-   [ALMRun]是一个快速启动软件，小巧绿色，简单易用，随用随忘，只要开启了它，完全不用在意到它的存在，你需要的时候随叫随到。
+   [ALMRun]是一个类 altrun 快速启动软件，小巧绿色，简单易用，随用随忘，只要开启了它，完全不用在意到它的存在，你需要的时候随叫随到。
+   
+   操作使用可参考知乎altrun 介绍
+   https://zhuanlan.zhihu.com/p/499386608
 
-   基本功能：　快速启动，热键管理．  
+   基本功能：　随windows 自动启动，可通过托盘设置快速启动热键，和常用命令热键管理．  
    扩展功能：　使用LUA脚本来进行功能扩展，程序内置一些常用的API可直接调用（比如模拟键盘或鼠标输入、窗口管理、自动登录等），使用[luajit]作为LUA引擎，功能强大。  
    出生日期：　2013-03-31  
 
@@ -132,32 +135,10 @@ Resource 相关资源
 [luajit]:http://luajit.org/
 [更新记录]:update_log.html
 Requirement(编译环境)
-======================
-	vs2012
-	cmake >= 2.8
-	wxWidgets >=2.9.5
-
-Build 编译方法
-===================
-1.  先用下载[wxWidget源码](https://www.wxwidgets.org/downloads/)
-
-    需要**2.9.5**以上的版本,建议用**3.0.1**版的源码,直接解压到`d:\dev`目录下,
-    然后打开`D:\dev\wxWidgets-3.0.1\build\msw\wx_vc11.sln`文件编译 **Release** 和 **Debug** 两个版本,直接编译就行了.
-
-2. 下载[cmake](http://www.cmake.org/cmake/resources/software.html)(2.8以上的版本),直接安装.
-
-3. 打开命令管理器(CMD.EXE)进入ALMRUN源码目录
-```
-	cd Build
-	cmake ..
-	ALMRun.sln
-```
-
-以后可以直接打开**ALMRun.sln**修改编译.
 
 Download 程序下载
 ===================
 
-ALMRUN最新版本下载： <https://github.com/chenall/ALMRun/releases>
+ALMRUN最新版本下载： https://github.com/jazzson51569/ALMRun/
 
 其它版本请从 [更新记录] 下载
